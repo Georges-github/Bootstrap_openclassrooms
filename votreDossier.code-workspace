@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../docs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "votreDossier",
+		"liveServer.settings.port": 5501
+	}
+}
