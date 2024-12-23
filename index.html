@@ -7,24 +7,50 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script src="https://kit.fontawesome.com/93a901de3f.js" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.js" defer></script>
     <title>Bootstrap Openclassrooms - Votre dossier</title>
 </head>
 <body>
 
     <head>
-        <nav class="bg-light">
+        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
             <div class="container">
-                <div class="bg-secondary py-4 w-100">
+                <a href="" class="navbar-brand text-uppercase fw-bold"><span class="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#JohnDoe">Qui suis-je ?</a>                
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Expertise">Expertise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
+            <!-- <nav class="bg-light">
+                <div class="container">
+                    <div class="bg-secondary py-4 w-100">
+                    </div>
+                </div>
+            </nav> -->
     </head>
 
     <main>
 
-        <section class="py-5">
+        <section id="JohnDoe" class="py-5">
             <div class="container">
                 <div class="row gy-4 align-items-center">
                     <div class="col-12 col-md-6">
@@ -39,7 +65,7 @@
             </div>
         </section>
 
-        <section class="bg-light py-5">
+        <section id="Expertise" class="bg-light py-5">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -49,7 +75,63 @@
                 </div>
                 <div class="row mt-5 gy-4">
                     <div class="col-12 col-md-7">
-                        <div class="bg-secondary h-100 w-100 py-5"></div>
+
+                        <div class="container bg-white py-2 mb-3">
+                            <div class="row align-items-center">
+                                <div class="col-5 col-sm-4 col-lg-3 col-xl-2 d-flex align-items-center">
+                                    <i class="fa-brands fa-html5 me-3"></i>
+                                    <span class="text-dark fw-bold">HTML</span>
+                                </div>
+                                <div class="col">
+                                    <div class="progress">
+                                        <div class="progress-bar py-5" role="progressbar" style="width: 25%;" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+                         <div class="container bg-white py-2 mb-2">
+                            <div class="row align-items-center">
+                                <div class="col-5 col-sm-4 col-lg-3 col-xl-2 d-flex align-items-center">
+                                    <i class="fa-brands fa-css3-alt me-3"></i>
+                                    <span class="text-dark fw-bold">CSS</span>
+                                </div>
+                                <div class="col">
+                                    <div class="progress">
+                                        <div class="progress-bar py-5" role="progressbar" style="width: 25%;" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+                         <div class="container bg-white py-2">
+                            <div class="row align-items-center">
+                                <div class="col-5 col-sm-4 col-lg-3 col-xl-2  d-flex align-items-center">
+                                    <i class="fa-brands fa-js me-3"></i>
+                                    <span class="text-dark fw-bold">JS</span>
+                                </div>
+                                <div class="col">
+                                    <div class="progress">
+                                        <div class="progress-bar py-5" role="progressbar" style="width: 25%;" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                         
+                         <div class="container bg-white py-2">
+                            <div class="row align-items-center">
+                                <div class="col-5 col-sm-4 col-lg-3 col-xl-2  d-flex align-items-center">
+                                    <i class="fa-brands fa-php"></i>
+                                    <span class="text-dark fw-bold">PHP</span>
+                                </div>
+                                <div class="col">
+                                    <div class="progress">
+                                        <div class="progress-bar py-5" role="progressbar" style="width: 25%;" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                         
                     </div>
                     <div class="col-12 col-md-4 offset-md-1">
                         <img src="./img/code.jpg" alt="" width="100%">
@@ -66,7 +148,7 @@
             </div>
         </section>
 
-        <section class="py-5">
+        <section id="Portfolio" class="py-5">
             <div class="container">
                 <div class="row gy-4 mt-4">
                     <div class="col">
@@ -75,23 +157,156 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-3">
-                        <div class="bg-secondary h-100 w-100 py-5"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="./img/Tulipe.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">projet 1</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottomProjet1" aria-controls="offcanvasBottom">En savoir plus</a>
+                            </div>
+                          </div>
                     </div>
-                    <div class="col-3">
-                        <div class="bg-secondary h-100 w-100 py-5"></div>
+                    <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="offcanvasBottomProjet1" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Projet 1</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            <div id="carouselProjet1" class="carousel slide h-100" data-bs-ride="carousel">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item h-100 active" data-bs-interval="3000">
+                                        <img src="https://picsum.photos/1920/1080?random=1" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>First slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item h-100" data-bs-interval="3000">
+                                        <img src="https://picsum.photos/1920/1080?random=2" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Second slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item h-100" data-bs-interval="3000">
+                                        <img src="https://picsum.photos/1920/1080?random=3" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Third slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-3">
-                        <div class="bg-secondary h-100 w-100 py-5"></div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="./img/Rocher.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">projet 2</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottomProjet2" aria-controls="offcanvasBottom">En savoir plus</a>
+                            </div>
+                          </div>
                     </div>
-                    <div class="col-3">
-                        <div class="bg-secondary h-100 w-100 py-5"></div>
+                    <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="offcanvasBottomProjet2" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Projet 2</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            <!-- <img src="./img/Rocher.jpg" class="card-img-top h-100" alt="..."> -->
+                            <div id="carouselProjet2" class="carousel slide h-100" data-bs-ride="carousel">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item h-100 active" data-bs-interval="3000">
+                                        <img src="https://picsum.photos/1920/1080?random=1" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>First slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item h-100" data-bs-interval="3000">
+                                        <img src="https://picsum.photos/1920/1080?random=2" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Second slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item h-100" data-bs-interval="3000">
+                                        <img src="https://picsum.photos/1920/1080?random=3" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Third slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="./img/Rando.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">projet 3</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottomProjet3" aria-controls="offcanvasBottom">En savoir plus</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="offcanvasBottomProjet3" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Projet 3</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            <!-- <img src="./img/Rando.jpg" class="card-img-top h-100" alt="..."> -->
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="card">
+                            <img src="./img/Toure.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">projet 4</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottomProjet4" aria-controls="offcanvasBottom">En savoir plus</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="offcanvasBottomProjet4" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Projet 4</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            <!-- <img src="./img/Toure.jpg" class="card-img-top h-100" alt="..."> -->
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section class="bg-light py-5">
+        <section id="Contact" class="bg-light py-5">
             <div class="container">
                 <h2 class="">Un projet de réalisation web ?</h2>
                 <h3>Allons en discuter autour d'un café</h3>
